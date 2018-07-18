@@ -1,0 +1,28 @@
+{
+  "name": "arts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2",
+    "ts-node": "^7.0.0",
+    "underscore": "^1.9.1",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/cheerio": "^0.22.8",
+    "@types/node": "^10.5.2",
+    "@types/request": "^2.47.1",
+    "@types/underscore": "^1.8.8",
+    "typescript": "^2.9.2"
+  }
+}
