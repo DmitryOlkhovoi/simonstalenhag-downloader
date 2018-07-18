@@ -30,7 +30,7 @@ class Downloader {
           ), Buffer.from(imageReq.body));
         }
       } catch(e) {
-        console.error('Get error', e);
+        console.error('Get error', e.statusCode);
       }
     }))
   }
