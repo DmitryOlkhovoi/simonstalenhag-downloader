@@ -2,10 +2,9 @@ import { URL } from 'url';
 import { uniq } from 'underscore';
 import request from 'request-promise';
 import { load as cheerioLoad } from 'cheerio';
-import HTMLParser from './HTMLParser.i';
 
 export default
-class Parser implements HTMLParser {
+class Parser {
   async getItems(url: URL): Promise<string[]> {
     try {
       const html = await request.get(url.href);
